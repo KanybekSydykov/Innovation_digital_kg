@@ -1,0 +1,99 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  height: auto;
+  background: white;
+  padding-top: 55px;
+  padding-left: 95.5px;
+  padding-bottom: 57px;
+  padding-right: 105px;
+}
+
+.monthesCover {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.monthes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  width: 97%;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.graphCover{
+    display: flex;
+    flex-direction: row;
+}
+
+.monthes * {
+  width: auto;
+  color: #959494;
+  font-size: 12px;
+}
+
+.weekdays * {
+  margin: 2px;
+  height: 15px;
+  color: #959494;
+  font-size: 12px;
+}
+
+.cells {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15px);
+  grid-template-rows: repeat(7, 15px);
+  grid-auto-flow: column;
+  row-gap: 1.5px;
+  column-gap: 1.5px;
+  justify-content: center;
+  align-content: center;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  background-color: #ededed;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.contributorsMark{
+    display: flex;
+    flex-direction: row;
+    padding-left: 22px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    gap: 2px;
+}
+
+.low {
+  background-color: #acd5f2;
+}
+
+.mid {
+  background-color: #7fa8c9;
+}
+
+.large {
+  background-color: #527ba0;
+}
+
+.extraLarge {
+  background-color: #254e77;
+}
